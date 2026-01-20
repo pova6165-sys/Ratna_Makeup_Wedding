@@ -1,1 +1,74 @@
-/* CSS dummy */
+/* Header Premium */
+.hero {
+  position:relative;
+  height:500px;
+  background-image:url('assets/header_premium.jpg');
+  background-size:cover;
+  background-position:center;
+}
+
+.hero .overlay {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  text-align:center;
+  color:white;
+  text-shadow:2px 2px 12px rgba(0,0,0,0.7);
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-size:60px;
+  background: linear-gradient(90deg, #ff4081, #ffeb3b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size:24px;
+  margin:15px 0;
+}
+
+.btn-cta {
+  padding:15px 30px;
+  background:#ff4081;
+  color:white;
+  text-decoration:none;
+  border-radius:10px;
+  font-weight:bold;
+  box-shadow:0 4px 10px rgba(0,0,0,0.3);
+  transition:0.3s;
+}
+
+.btn-cta:hover {
+  background:#e73370;
+  transform:scale(1.05);
+}
+
+/* Peri Animasi */
+.fairy {
+  position:absolute;
+  width:60px;
+  animation:fly 8s linear infinite;
+}
+
+@keyframes fly {
+  0% {top:50%; left:0;}
+  25% {top:40%; left:25%;}
+  50% {top:60%; left:50%;}
+  75% {top:30%; left:75%;}
+  100% {top:50%; left:100%;}
+}
+
+/* Gallery */
+.gallery {
+  text-align:center;
+  margin:50px 0;
+}
+
+.gallery img {
+  width:200px;
+  margin:5px;
+}
